@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+@import '_variables.scss';
+@import '_mixin.scss';
+@import 'page-section/_navbar.scss';
+@import 'page-section/_footer.scss';
+
+
+@import '/scss/page-section/products-sk/_skincare-title.scss';
