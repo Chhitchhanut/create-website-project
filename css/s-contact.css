@@ -40,6 +40,10 @@ nav ul li a:hover {
 nav .active {
   font-weight: bold;
 }
+nav .nav-R {
+  display: flex;
+  gap: 20px;
+}
 
 .page-intro {
   height: 140px;

@@ -39,6 +39,10 @@ nav {
         };
     };
     .active {
-        font-weight: bold;;
+        font-weight: bold;
     };
+    .nav-R{
+        display: flex;
+        gap: 20px;
+    }
 }
