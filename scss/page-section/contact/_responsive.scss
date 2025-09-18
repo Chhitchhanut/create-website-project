@@ -1,0 +1,46 @@
+@import '../../_variables.scss';
+@import '../../_mixin.scss';
+
+
+
+
+
+
+/* ---------------- Tablet (720px–1000px) ---------------- */
+@media (max-width: 1000px) and (min-width: 720px) {
+    nav {
+        padding: 0 40px;
+        ul {
+            gap: 20px;
+        };
+    };
+
+    .page-intro p {
+        padding: 0px 60px;
+        font-size: 1rem;
+    };
+
+    main {
+        flex-direction: column;
+        height: auto;
+        padding: 40px 20px;
+        .form-container{
+            width: 90%;
+        };
+        .info-card-container {
+            width: 90%;
+            .social {
+                justify-content: center;
+                gap: 20px;
+            };
+        };
+    };
+
+    footer {
+        font-size: 12px;
+        .foot-top-container {
+            gap: 20px;
+            padding: 0px 40px;
+        };
+    };
+};

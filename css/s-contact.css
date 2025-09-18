@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -240,4 +241,40 @@ footer .copyright {
 footer .copyright p {
   color: #fff;
   text-align: center;
+}
+
+/* ---------------- Tablet (720px–1000px) ---------------- */
+@media (max-width: 1000px) and (min-width: 720px) {
+  nav {
+    padding: 0 40px;
+  }
+  nav ul {
+    gap: 20px;
+  }
+  .page-intro p {
+    padding: 0px 60px;
+    font-size: 1rem;
+  }
+  main {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 20px;
+  }
+  main .form-container {
+    width: 90%;
+  }
+  main .info-card-container {
+    width: 90%;
+  }
+  main .info-card-container .social {
+    justify-content: center;
+    gap: 20px;
+  }
+  footer {
+    font-size: 12px;
+  }
+  footer .foot-top-container {
+    gap: 20px;
+    padding: 0px 40px;
+  }
 }/*# sourceMappingURL=s-contact.css.map */
