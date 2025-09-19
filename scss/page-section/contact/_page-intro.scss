@@ -10,9 +10,7 @@
     flex-direction: column;
     justify-content: center;
     h2 {
-    color: $primary-color;
-    font-size: 2rem;
-    margin-bottom: 10px;
+        @include sec-title;
     };
     p {
     color: $text-color;

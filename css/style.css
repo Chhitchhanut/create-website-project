@@ -45,6 +45,143 @@ nav .nav-R {
   gap: 20px;
 }
 
+.wel-sec-container {
+  height: 500px;
+  padding-top: 80px;
+  color: #3B2F2F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.wel-sec-container img {
+  width: 500px;
+}
+.wel-sec-container .wel-L {
+  width: 40%;
+}
+.wel-sec-container .wel-L h2 {
+  margin-bottom: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #4E944F;
+}
+.wel-sec-container .wel-L p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+.wel-sec-container .wel-L button {
+  padding: 12px 30px;
+  background-color: #4E944F;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.wel-sec-container .wel-L button:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.tip-sec {
+  padding: 60px 80px;
+  color: #3B2F2F;
+}
+.tip-sec h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #4E944F;
+  margin-bottom: 30px;
+}
+.tip-sec .tip-card-container {
+  display: flex;
+  justify-content: space-between;
+}
+.tip-sec .tip-card-container .tip-card {
+  width: 22%;
+}
+.tip-sec .tip-card-container .tip-card fieldset {
+  height: 340px;
+  padding: 30px;
+  padding-top: 10px;
+  background-color: #FAF9F6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.tip-sec .tip-card-container .tip-card fieldset h3 {
+  text-align: center;
+  color: #4E944F;
+}
+.tip-sec .tip-card-container .tip-card fieldset p {
+  text-align: justify;
+}
+.tip-sec .tip-card-container .tip-card fieldset legend {
+  text-align: center;
+}
+.tip-sec .tip-card-container .tip-card fieldset legend img {
+  width: 60px;
+  padding: 10px;
+  border-radius: 50%;
+  background: #f1f8f2;
+  box-shadow: 0 2px 6px;
+}
+.tip-sec .tip-card-container .tip-card fieldset:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.story-sec {
+  padding: 60px 80px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.story-sec .story-L {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "s3 s1" "s4 s2";
+  gap: 20px;
+}
+.story-sec .story-L .story-L1 {
+  grid-area: s1;
+  justify-content: end;
+  align-content: end;
+}
+.story-sec .story-L .story-L2 {
+  grid-area: s2;
+  justify-self: start;
+}
+.story-sec .story-L .story-L3 {
+  grid-area: s3;
+  justify-self: end;
+  align-content: end;
+}
+.story-sec .story-L .story-L4 {
+  grid-area: s4;
+  justify-self: end;
+  align-self: start;
+}
+.story-sec .story-R h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #4E944F;
+  margin-bottom: 30px;
+  text-align: left;
+}
+.story-sec .story-R p {
+  margin-top: 30px;
+  text-align: justify;
+  color: #3B2F2F;
+}
+
 footer {
   padding-top: 40px;
   background-color: #FAF9F6;

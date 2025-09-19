@@ -1,0 +1,49 @@
+@import '../../_variables.scss';
+@import '../../_mixin.scss';
+
+
+
+.story-sec {
+    padding: 60px 80px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    .story-L {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+                    "s3 s1"
+                    "s4 s2";
+        gap: 20px;
+        .story-L1 {
+            grid-area: s1;
+            justify-content: end;
+            align-content: end;
+        };
+        .story-L2 {
+            grid-area: s2;
+            justify-self: start;
+        };
+        .story-L3 {
+            grid-area: s3;
+            justify-self: end;
+            align-content: end;
+        };
+        .story-L4 {
+            grid-area: s4;
+            justify-self: end;
+            align-self: start;
+        };
+    };
+    .story-R {
+        h2 {
+            @include sec-title;
+            text-align: left;
+        }
+        p{
+            margin-top: 30px;
+            text-align: justify;
+            color: $text-color;
+        };
+    };
+};

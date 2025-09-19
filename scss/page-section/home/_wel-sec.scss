@@ -1,0 +1,43 @@
+@import '../../_variables.scss';
+@import '../../_mixin.scss';
+
+.wel-sec-container{
+    height: 500px;
+    padding-top: 80px;
+    color: $text-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    img {
+        width: 500px;
+    };
+    .wel-L {
+        width: 40%;
+        h2 {
+            margin-bottom: 10px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: $primary-color;
+        };
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        };
+        button {
+            padding: 12px 30px;
+            background-color: $primary-color;
+            color: #fff;
+            border-radius: 4px;
+            border: none;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        };
+        button:hover {
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        };
+    };
+};
