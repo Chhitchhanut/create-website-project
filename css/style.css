@@ -223,4 +223,62 @@ footer .copyright {
 footer .copyright p {
   color: #fff;
   text-align: center;
+}
+
+@media (max-width: 1000px) and (min-width: 720px) {
+  nav {
+    padding: 0 40px;
+  }
+  nav ul {
+    gap: 20px;
+  }
+  .wel-sec-container img {
+    width: 360px;
+  }
+  .tip-sec {
+    padding: 40px;
+  }
+  .tip-sec h2 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+  }
+  .tip-sec .tip-card-container {
+    padding: 40px 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 40px;
+  }
+  .tip-sec .tip-card-container .tip-card {
+    width: 46%;
+  }
+  .tip-sec .tip-card-container .tip-card fieldset {
+    height: 280px;
+    padding: 20px;
+  }
+  .tip-sec .tip-card-container .tip-card fieldset legend img {
+    width: 50px;
+  }
+  .story-sec {
+    padding: 40px;
+    gap: 30px;
+  }
+  .story-sec .story-L {
+    display: block;
+  }
+  .story-sec .story-L .story-L1 {
+    display: none;
+  }
+  .story-sec .story-L .story-L2 {
+    display: none;
+  }
+  .story-sec .story-L .story-L4 {
+    display: none;
+  }
+  footer {
+    font-size: 12px;
+  }
+  footer .foot-top-container {
+    gap: 20px;
+    padding: 0px 40px;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,73 @@
+@import '../../_variables.scss';
+@import '../../_mixin.scss';
+
+
+@media (max-width: 1000px) and (min-width: 720px) {
+    nav {
+        padding: 0 40px;
+        ul {
+            gap: 20px;
+        };
+    };
+
+    .wel-sec-container {
+        img{
+            width: 360px;
+        };
+    };
+
+    .tip-sec {
+        padding: 40px;
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 25px;
+        };
+        .tip-card-container {
+            padding: 40px 20px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            row-gap: 40px;
+            .tip-card {
+                width: 46%;
+                fieldset {
+                    height: 280px;
+                    padding: 20px;
+                    legend {
+                        img {
+                            width: 50px;
+                        };
+                    };
+                };
+            };
+        };
+    };
+
+    .story-sec {
+        padding: 40px;
+        gap: 30px;
+        .story-L {
+            display: block;
+            .story-L1 {
+                display: none;
+            };
+            .story-L2 {
+                display: none;
+            };
+            .story-L4 {
+                display: none;
+            };
+        };
+    };
+   
+
+
+
+
+    footer {
+        font-size: 12px;
+        .foot-top-container {
+            gap: 20px;
+            padding: 0px 40px;
+        };
+    };
+}
