@@ -278,4 +278,18 @@ footer .copyright p {
     gap: 20px;
     padding: 0px 40px;
   }
+}
+@media (max-width: 600px) and (min-width: 360px) {
+  nav {
+    padding: 0px 20px;
+  }
+  nav .nav-L img {
+    height: 40px;
+  }
+  nav .nav-mid ul {
+    gap: 10px;
+  }
+  nav .nav-mid ul a {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=s-contact.css.map */

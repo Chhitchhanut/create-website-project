@@ -44,3 +44,25 @@
         };
     };
 };
+
+
+@media (max-width: 600px) and (min-width: 360px) {
+    nav {
+        padding: 0px 20px;
+        .nav-L {
+            img {
+                height: 40px;
+            };
+        };
+        .nav-mid {
+            ul {
+                gap: 10px;
+                a {
+                    font-size: 12px;
+                };
+            };
+        };
+    };       
+    
+    
+}
