@@ -1,0 +1,57 @@
+@import '../../_variables.scss';
+@import '../../_mixin.scss';
+
+
+
+
+.cards-sec-container{
+    padding: 60px 80px;
+    h2 {
+        @include sec-title;
+    };
+    .cards-sec{
+        display: flex;
+        justify-content: space-between;
+    };
+    .sk-card, .cmt-card{
+        width: 46%;
+        height: 320px;
+        padding: 20px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        p{
+            width: 380px;
+        };
+        .button-74 {
+            a{
+                color: #422800;
+                text-decoration: none;
+            };
+            width: 120px;
+            padding: 0 18px;
+            background-color: transparent;
+            border: 1px solid #422800;
+            border-radius: 30px;
+            box-shadow: #422800 4px 4px 0 0;
+
+            cursor: pointer;
+            font-weight: 600;
+            line-height: 40px;
+            text-align: center;
+            text-decoration: none;
+        };
+        .button-74:hover {
+            font-weight:bolder;
+        };
+    };
+    .sk-card{
+        background-image: url(../../../img/sk/sk.png);
+    };
+    .cmt-card{
+        background-image: url(../../../img/cmt/cmt.png);
+    };
+}

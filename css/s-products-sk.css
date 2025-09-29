@@ -40,9 +40,27 @@ nav ul li a:hover {
 nav .active {
   font-weight: bold;
 }
+nav .nav-R {
+  display: flex;
+  gap: 20px;
+}
+
+.skincare-title-sec {
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  background-color: #4E944F;
+  position: fixed;
+  top: 80px;
+  left: 0;
+  z-index: 999;
+  padding: 10px 0px;
+}
 
 footer {
-  padding-top: 100px;
+  padding-top: 40px;
   background-color: #FAF9F6;
 }
 footer p {
@@ -82,6 +100,4 @@ footer .copyright {
 footer .copyright p {
   color: #fff;
   text-align: center;
-}
-
-@impo;/*# sourceMappingURL=s-products-sk.css.map */
+}/*# sourceMappingURL=s-products-sk.css.map */

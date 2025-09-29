@@ -1,0 +1,35 @@
+@import '../../_variables.scss';
+@import '../../_mixin.scss';
+
+
+
+
+.wel-sec{
+    height: 600px;
+    padding: 80px;
+    background-image: url(/img/wel-product.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.471);
+
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        @include sec-title;
+        color: #fff;
+        text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+        letter-spacing: 1px;
+    };
+    
+    p {
+        font-size: 1.2rem;
+        width: 900px;
+        text-align: center;
+        text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    };
+}
