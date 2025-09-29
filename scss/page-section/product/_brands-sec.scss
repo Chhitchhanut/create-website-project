@@ -1,0 +1,25 @@
+@import '../../_variables.scss';
+@import '../../_mixin.scss';
+
+
+
+h2 {
+    @include sec-title;
+}
+.brand-sec{
+    padding: 60px 80px;
+    width: 90%;
+    .brand-pt {
+        margin-top: 15px;
+    };
+    .brand-lsc, .brand-pt{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 15px;
+        .brands{
+            width: 180px;
+            border: 1px solid #3B2F2F;
+        };
+    };
+}

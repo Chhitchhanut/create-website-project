@@ -129,6 +129,31 @@ nav .nav-R {
   background-image: url(../../../img/cmt/cmt.png);
 }
 
+h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #4E944F;
+  margin-bottom: 30px;
+}
+
+.brand-sec {
+  padding: 60px 80px;
+  width: 90%;
+}
+.brand-sec .brand-pt {
+  margin-top: 15px;
+}
+.brand-sec .brand-lsc, .brand-sec .brand-pt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 15px;
+}
+.brand-sec .brand-lsc .brands, .brand-sec .brand-pt .brands {
+  width: 180px;
+  border: 1px solid #3B2F2F;
+}
+
 footer {
   padding-top: 40px;
   background-color: #FAF9F6;
