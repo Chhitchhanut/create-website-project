@@ -129,6 +129,114 @@ nav .nav-R {
   background-image: url(../../../img/cmt/cmt.png);
 }
 
+.best-sell-container {
+  padding: 60px 80px;
+}
+.best-sell-container .bs-product-card-container:last-child {
+  margin-top: 50px;
+}
+.best-sell-container .bs-product-card-container {
+  /* Sub-title row */
+  /* Product card container */
+}
+.best-sell-container .bs-product-card-container .bs-sub-title {
+  padding: 10px 0px 10px 20px;
+  background-color: #A8C686;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.best-sell-container .bs-product-card-container .bs-sub-title h3 {
+  font-size: 1.5rem;
+  color: #444;
+}
+.best-sell-container .bs-product-card-container .bs-sub-title button {
+  font-size: large;
+  padding: 6px 14px;
+  background: none;
+  border: none;
+}
+.best-sell-container .bs-product-card-container .bs-sub-title button a {
+  color: #222;
+  text-decoration: none;
+}
+.best-sell-container .bs-product-card-container .bs-sub-title button:hover {
+  font-weight: bold;
+}
+.best-sell-container .bs-product-card-container .bs-product-card-parent {
+  display: flex;
+  gap: 25px;
+  /* Single product card */
+}
+.best-sell-container .bs-product-card-container .bs-product-card-parent .bs-product-card {
+  width: 18%;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  /* Product details */
+}
+.best-sell-container .bs-product-card-container .bs-product-card-parent .bs-product-card img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.best-sell-container .bs-product-card-container .bs-product-card-parent .bs-product-card h4 {
+  font-size: 1rem;
+  color: #333;
+}
+.best-sell-container .bs-product-card-container .bs-product-card-parent .bs-product-card p {
+  font-size: 0.8rem;
+  margin: 5px 0;
+}
+.best-sell-container .bs-product-card-container .bs-product-card-parent .bs-product-card .card-row, .best-sell-container .bs-product-card-container .bs-product-card-parent .bs-product-card .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.best-sell-container .bs-product-card-container .bs-product-card-parent .bs-product-card .price p:first-child {
+  font-size: 0.95rem;
+  color: red;
+  text-decoration: line-through;
+}
+.best-sell-container .bs-product-card-container .bs-product-card-parent .bs-product-card .price p:last-child {
+  font-size: 0.95rem;
+  color: #3a6d3b;
+  font-weight: bold;
+}
+.best-sell-container .bs-product-card-container .bs-product-card-parent .bs-product-card .card-row {
+  /* Buy button */
+}
+.best-sell-container .bs-product-card-container .bs-product-card-parent .bs-product-card .card-row .star {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.best-sell-container .bs-product-card-container .bs-product-card-parent .bs-product-card .card-row .star svg {
+  fill: #f5b50a;
+}
+.best-sell-container .bs-product-card-container .bs-product-card-parent .bs-product-card .card-row button {
+  background: #4e944f;
+  color: #fff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.best-sell-container .bs-product-card-container .bs-product-card-parent .bs-product-card .card-row button:hover {
+  background: #3a6d3b;
+}
+.best-sell-container .bs-product-card-container .bs-product-card-parent .bs-product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+}
+
 h2 {
   text-align: center;
   font-size: 2.2rem;
@@ -138,7 +246,7 @@ h2 {
 
 .brand-sec {
   padding: 60px 80px;
-  width: 90%;
+  width: 89%;
 }
 .brand-sec .brand-pt {
   margin-top: 15px;
