@@ -1,0 +1,100 @@
+@import '../../_variables.scss';
+@import '../../_mixin.scss';
+
+
+
+
+
+
+.dc-product-card-container {
+    padding:60px 80px;
+    /* Sub-title row */
+    .dc-sub-title {
+        margin-bottom: 25px;
+        padding: 10px 0px 10px 20px;
+        background-color: #A8C686;;
+        h3 {
+            font-size: 1.5rem;
+            color: #444;
+        };
+    };
+
+    /* Product card container */
+    .dc-product-card-parent {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 30px;
+        /* Single product card */
+        .dc-product-card {
+            width: 15%;
+            padding: 20px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 10px;
+                margin-bottom: 15px;
+            };
+            /* Product details */
+            h4 {
+                font-size: 1rem;
+                color: #333;
+            };
+            p {
+                font-size: 0.8rem;
+                margin: 5px 0;
+            };
+            .card-row, .price {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            };
+            .price {
+                p:first-child {
+                    font-size: 0.95rem;
+                    color: red;
+                    text-decoration: line-through;
+                };
+                p:last-child {
+                    font-size: 0.95rem;
+                    color: #3a6d3b;
+                    font-weight: bold;
+                };
+            };
+            .card-row {
+                .star {
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    svg {
+                        fill: #f5b50a;
+                    };
+                };
+                /* Buy button */
+                button {
+                background: #4e944f;
+                color: #fff;
+                border: none;
+                padding: 6px 14px;
+                border-radius: 6px;
+                cursor: pointer;
+                transition: 0.3s ease;
+                };
+                button:hover {
+                background: #3a6d3b;
+                };
+            };
+            
+        };
+        .dc-product-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+        };
+    };
+}
+

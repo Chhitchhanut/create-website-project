@@ -56,7 +56,253 @@ nav .nav-R {
   top: 80px;
   left: 0;
   z-index: 999;
-  padding: 10px 0px;
+}
+
+.wel-sec-container {
+  height: 500px;
+  padding: 0 80px;
+  padding-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  /* Background */
+  background-image: url(../../../img/cmt/bc-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.295);
+  /* Left side */
+  /* Right side*/
+}
+.wel-sec-container .wel-sec-L p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #f1f1f1;
+}
+.wel-sec-container .wel-sec-L h1 {
+  color: #f1f1f1;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.wel-sec-container .wel-sec-L .wel-sec-L-row {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+.wel-sec-container .wel-sec-R {
+  background: rgba(255, 255, 255, 0.8509803922);
+  color: #333;
+  padding: 20px 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  min-width: 220px;
+  /* Card title with icon */
+  /* Categories list */
+}
+.wel-sec-container .wel-sec-R .card-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #ddd;
+}
+.wel-sec-container .wel-sec-R .card-title h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0;
+  color: #314D1C;
+}
+.wel-sec-container .wel-sec-R p {
+  margin: 8px 0;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.wel-sec-container .wel-sec-R p a {
+  text-decoration: none;
+  color: #333;
+}
+.wel-sec-container .wel-sec-R p:hover {
+  background: #f5f5f5;
+  border-color: #314D1C;
+  color: #314D1C;
+  transform: translateX(5px);
+}
+
+.dc-product-card-container {
+  padding: 60px 80px;
+  /* Sub-title row */
+  /* Product card container */
+}
+.dc-product-card-container .dc-sub-title {
+  margin-bottom: 25px;
+  padding: 10px 0px 10px 20px;
+  background-color: #A8C686;
+}
+.dc-product-card-container .dc-sub-title h3 {
+  font-size: 1.5rem;
+  color: #444;
+}
+.dc-product-card-container .dc-product-card-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 30px;
+  /* Single product card */
+}
+.dc-product-card-container .dc-product-card-parent .dc-product-card {
+  width: 15%;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  /* Product details */
+}
+.dc-product-card-container .dc-product-card-parent .dc-product-card img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.dc-product-card-container .dc-product-card-parent .dc-product-card h4 {
+  font-size: 1rem;
+  color: #333;
+}
+.dc-product-card-container .dc-product-card-parent .dc-product-card p {
+  font-size: 0.8rem;
+  margin: 5px 0;
+}
+.dc-product-card-container .dc-product-card-parent .dc-product-card .card-row, .dc-product-card-container .dc-product-card-parent .dc-product-card .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dc-product-card-container .dc-product-card-parent .dc-product-card .price p:first-child {
+  font-size: 0.95rem;
+  color: red;
+  text-decoration: line-through;
+}
+.dc-product-card-container .dc-product-card-parent .dc-product-card .price p:last-child {
+  font-size: 0.95rem;
+  color: #3a6d3b;
+  font-weight: bold;
+}
+.dc-product-card-container .dc-product-card-parent .dc-product-card .card-row {
+  /* Buy button */
+}
+.dc-product-card-container .dc-product-card-parent .dc-product-card .card-row .star {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.dc-product-card-container .dc-product-card-parent .dc-product-card .card-row .star svg {
+  fill: #f5b50a;
+}
+.dc-product-card-container .dc-product-card-parent .dc-product-card .card-row button {
+  background: #4e944f;
+  color: #fff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.dc-product-card-container .dc-product-card-parent .dc-product-card .card-row button:hover {
+  background: #3a6d3b;
+}
+.dc-product-card-container .dc-product-card-parent .dc-product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+}
+
+.product-card-container {
+  padding: 60px 80px;
+  /* Sub-title row */
+  /* Product card container */
+}
+.product-card-container .sub-title {
+  margin-bottom: 25px;
+  padding: 10px 0px 10px 20px;
+  background-color: #A8C686;
+}
+.product-card-container .sub-title h3 {
+  font-size: 1.5rem;
+  color: #444;
+}
+.product-card-container .product-card-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 30px;
+  /* Single product card */
+}
+.product-card-container .product-card-parent .product-card {
+  width: 15%;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  /* Product details */
+}
+.product-card-container .product-card-parent .product-card img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.product-card-container .product-card-parent .product-card h4 {
+  font-size: 1rem;
+  color: #333;
+}
+.product-card-container .product-card-parent .product-card p {
+  font-size: 0.8rem;
+  margin: 5px 0;
+}
+.product-card-container .product-card-parent .product-card .price {
+  font-size: 0.95rem;
+  color: #3a6d3b;
+  font-weight: bold;
+}
+.product-card-container .product-card-parent .product-card .card-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Buy button */
+}
+.product-card-container .product-card-parent .product-card .card-row .star {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.product-card-container .product-card-parent .product-card .card-row .star svg {
+  fill: #f5b50a;
+}
+.product-card-container .product-card-parent .product-card .card-row button {
+  background: #4e944f;
+  color: #fff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.product-card-container .product-card-parent .product-card .card-row button:hover {
+  background: #3a6d3b;
+}
+.product-card-container .product-card-parent .product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
 }
 
 footer {
