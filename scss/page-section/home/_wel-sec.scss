@@ -2,15 +2,20 @@
 @import '../../_mixin.scss';
 
 .wel-sec-container{
-    height: 500px;
+    height: 540px;
     padding-top: 80px;
     color: $text-color;
+
+    background-image: url(../../../img/bc.jpg);
+    background-size: cover;
+
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 40px;
     img {
         width: 500px;
+        align-self: flex-end;
     };
     .wel-L {
         width: 40%;

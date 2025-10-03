@@ -46,9 +46,11 @@ nav .nav-R {
 }
 
 .wel-sec-container {
-  height: 500px;
+  height: 540px;
   padding-top: 80px;
   color: #3B2F2F;
+  background-image: url(../../../img/bc.jpg);
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,6 +58,7 @@ nav .nav-R {
 }
 .wel-sec-container img {
   width: 500px;
+  align-self: flex-end;
 }
 .wel-sec-container .wel-L {
   width: 40%;
