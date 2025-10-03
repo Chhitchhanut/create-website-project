@@ -262,6 +262,9 @@ footer .copyright p {
   nav ul {
     gap: 20px;
   }
+  .wel-sec-container {
+    height: 400px;
+  }
   .wel-sec-container img {
     width: 360px;
   }
