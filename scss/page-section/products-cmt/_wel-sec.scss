@@ -4,20 +4,20 @@
 
 
 .wel-sec-container {
-    height: 500px;
+    height: 520px;
     padding: 0 80px;
-    padding-top: 120px;
+    padding-top: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
 
     /* Background */
-    background-image: url(../../../img/cmt/bc-image.png);
+    background-image: url(../../../img/cmt/image.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: darken;
-    background-color: rgba(0, 0, 0, 0.295);
+    background-color: rgba(0, 0, 0, 0.229);
 
     /* Left side */
     .wel-sec-L {
