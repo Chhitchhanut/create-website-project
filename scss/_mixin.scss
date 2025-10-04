@@ -9,3 +9,10 @@
     color: $primary-color;
     margin-bottom: 30px;
 };
+
+@mixin sec-title-phone{
+    text-align: center;
+    font-size: 1.4rem;
+    color: $primary-color;
+    margin-bottom: 20px;
+};

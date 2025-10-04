@@ -328,4 +328,105 @@ footer .copyright p {
   nav .nav-mid ul a {
     font-size: 12px;
   }
+  .wel-sec-container {
+    height: 200px;
+    padding-top: 40px;
+    gap: 0px;
+  }
+  .wel-sec-container img {
+    width: 180px;
+  }
+  .wel-sec-container .wel-L h2 {
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  .wel-sec-container .wel-L p {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+  }
+  .wel-sec-container .wel-L p:nth-child(3) {
+    display: none;
+  }
+  .wel-sec-container .wel-L button {
+    padding: 6px 10px;
+    font-size: 0.8rem;
+    border-radius: 4px;
+  }
+  .tip-sec {
+    padding: 40px 20px;
+  }
+  .tip-sec h2 {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #4E944F;
+    margin-bottom: 20px;
+  }
+  .tip-sec .tip-card-container {
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 40px;
+  }
+  .tip-sec .tip-card-container .tip-card {
+    width: 90%;
+  }
+  .tip-sec .tip-card-container .tip-card fieldset {
+    height: 210px;
+    padding: 15px;
+  }
+  .tip-sec .tip-card-container .tip-card fieldset h3 {
+    font-size: 1rem;
+  }
+  .tip-sec .tip-card-container .tip-card fieldset p {
+    font-size: 0.8rem;
+  }
+  .tip-sec .tip-card-container .tip-card fieldset legend img {
+    width: 50px;
+  }
+  .story-sec {
+    padding: 40px 20px;
+    display: block;
+  }
+  .story-sec .story-L {
+    display: none;
+  }
+  .story-sec .story-R h2 {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #4E944F;
+    margin-bottom: 20px;
+  }
+  .story-sec .story-R p {
+    font-size: 0.8rem;
+    margin-top: 20px;
+  }
+  footer {
+    padding: 0px;
+    padding-top: 10px;
+  }
+  footer p {
+    font-size: 0.8rem;
+  }
+  footer h3 {
+    font-size: 0.8rem;
+  }
+  footer .foot-top-container {
+    padding: 0px 20px;
+  }
+  footer .foot-top-container .foot-parents-logo img {
+    height: 60px;
+  }
+  footer .foot-top-container .foot-parents-logo p:last-child {
+    display: none;
+  }
+  footer .foot-top-container .foot-parents:last-child {
+    display: none;
+  }
+  footer .copyright {
+    margin-top: 10px;
+    padding: 5px 0px;
+  }
+  footer .copyright p {
+    font-size: 0.8rem;
+  }
 }/*# sourceMappingURL=style.css.map */
