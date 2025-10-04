@@ -1,0 +1,192 @@
+@import '../../_variables.scss';
+@import '../../_mixin.scss';
+
+
+@media (max-width: 1000px) and (min-width: 720px) {
+    .wel-sec{
+        height: 400px;
+        padding: 40px;
+        padding-top: 80px;
+        h2 {
+            width: 500px;
+        };
+        
+        p {
+            width: 680px;
+        };
+    };
+
+    .cards-sec-container{
+        padding: 60px 40px;
+        .cards-sec{
+            display: flex;
+            justify-content: space-between;
+        };
+        .sk-card, .cmt-card{
+            width: 44%;
+            height: 220px;
+            p{
+                width: 300px;
+            };
+        };
+    };
+
+    .best-sell-container {
+        padding: 60px 40px;
+        .bs-product-card-container:last-child {
+            margin-top: 50px;
+        };
+        .bs-product-card-container {
+            /* Product card container */
+            .bs-product-card-parent {
+                flex-wrap: wrap;
+                justify-content: space-between;
+                row-gap: 30px;
+                /* Single product card */
+                .bs-product-card {
+                    width: 42%;
+                    img {
+                        width: 100%;
+                        height: 300px;
+                    };
+                };
+            };
+
+        };
+    };
+
+    .brand-sec{
+        padding: 60px 40px;
+        width: 90%;
+        .brand-lsc, .brand-pt{
+            .brands{
+                width: 12.6%;
+            };
+        };
+    }
+}
+
+
+@media (max-width: 600px) and (min-width: 360px) {
+    .wel-sec{
+        height: 160px;
+        padding: 20px;
+        padding-top: 60px;
+        h2 {
+            @include sec-title-phone;
+            color: #fff;
+        };
+        p {
+            display: none;
+        };
+    }
+
+    .cards-sec-container{
+        padding: 40px 20px;
+        padding-bottom: 0;
+        h2 {
+            @include sec-title-phone;
+        };
+        .cards-sec{
+            flex-direction: column;
+            row-gap: 20px;
+        };
+        .sk-card, .cmt-card{
+            width: 90%;
+            height: 180px;
+            p{
+                width: auto;
+                font-size: 0.8rem;
+                text-align: justify;
+            };
+            .button-74 {
+                width: 120px;
+                padding: 0px 14px;
+            };
+        };
+        .sk-card{
+            background-image: url(../../../img/sk/phone-sk.png);
+        };
+        .cmt-card{
+            background-image: url(../../../img/cmt/phone-cmt.png);
+        };
+    }
+
+    .best-sell-container {
+        padding: 40px 20px;
+        h2 {
+            @include sec-title-phone;
+        };
+        .bs-product-card-container:last-child {
+            margin-top: 40px;
+        };
+        .bs-product-card-container {
+            /* Sub-title row */
+            .bs-sub-title {
+                padding: 8px 0px 8px 20px;
+                h3 {
+                font-size: 1.1rem;
+                };
+            };
+
+            /* Product card container */
+            .bs-product-card-parent {
+                display: block;
+                /* Single product card */
+                .bs-product-card {
+                    margin-top: 20px;
+                    width: 90%;
+                    padding: 15px;
+                    display: grid;
+                    grid-template-columns: 1fr 1.25fr;
+                    grid-template-areas: 'img info1'
+                                        'img info2'
+                                        'img info3'
+                                        'img info4';
+                    column-gap: 10px;
+                    img {
+                        margin: 0;
+                        height: 140px;
+                        grid-area: img;
+                        align-self: center;
+                    }
+                    h4 {
+                        grid-area: info1;
+                        font-size: 0.8rem;
+                    }
+                    h4 + p {
+                    grid-area: info2;
+                    }
+                    .price {
+                        grid-area: info3;
+                    }
+                    .card-row {
+                        grid-area: info4;
+                    }
+                };
+            };
+        };
+    };
+
+    .brand-sec{
+        padding: 40px 20px;
+        padding-top: 0;
+        width: 89%;
+        h2 {
+            @include sec-title-phone;
+        }
+        .brand-pt {
+            margin-top: 15px;
+        };
+        .brand-lsc, .brand-pt{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            row-gap: 15px;
+            .brands{
+                width: 22.5%;
+                border: 1px solid #3B2F2F;
+            };
+        };
+    }
+}

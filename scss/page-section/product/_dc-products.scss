@@ -9,6 +9,9 @@
 
 .best-sell-container {
     padding: 60px 80px;
+    h2 {
+        @include sec-title;
+    };
     .bs-product-card-container:last-child {
         margin-top: 50px;
     };

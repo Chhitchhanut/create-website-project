@@ -3,12 +3,12 @@
 
 
 
-h2 {
-    @include sec-title;
-}
 .brand-sec{
     padding: 60px 80px;
     width: 89%;
+    h2 {
+        @include sec-title;
+    }
     .brand-pt {
         margin-top: 15px;
     };
