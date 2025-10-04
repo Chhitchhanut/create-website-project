@@ -49,3 +49,49 @@ footer{
         };
     };
 }
+
+/* ---------------- Tablet (720px–1000px) ---------------- */
+@media (max-width: 1000px) and (min-width: 720px) {
+    footer {
+        font-size: 12px;
+        .foot-top-container {
+            gap: 20px;
+            padding: 0px 40px;
+        };
+    };
+}
+
+
+@media (max-width: 600px) and (min-width: 360px) {
+    footer{
+        padding: 0px;
+        padding-top: 10px;
+        p{
+            font-size: 0.8rem;
+        };
+        h3{
+            font-size: 0.8rem;
+        };
+        .foot-top-container{
+            padding: 0px 20px;
+            .foot-parents-logo{
+                img{
+                    height: 60px;
+                };
+                p:last-child {
+                    display: none;
+                };
+            };
+            .foot-parents:last-child {
+                display: none;
+            };
+        };
+        .copyright{
+            margin-top: 10px;
+            padding: 5px 0px;
+            p{
+                font-size: 0.8rem;
+            };
+        };
+    };
+}
