@@ -1,0 +1,42 @@
+@import '../../_variables.scss';
+@import '../../_mixin.scss';
+
+
+@media (max-width: 1000px) and (min-width: 720px) {
+    .wel-sec-container {
+        height: 460px;
+        padding: 0px 40px;
+        padding-top: 90px;
+    };
+
+    .dc-product-card-container {
+        padding:60px 40px;
+        /* Product card container */
+        .dc-product-card-parent {
+            /* Single product card */
+            .dc-product-card {
+                width: 42%;
+                img {
+                    height: 250px;
+                };
+            };
+        };
+    };
+
+    .product-card-container {
+        padding:60px 40px;
+        /* Product card container */
+        .product-card-parent {
+            .product-card {
+                width: 42%;
+                img {
+                    height: 250px;
+                };
+            };
+        };
+    };
+};
+
+
+@media (max-width: 600px) and (min-width: 360px) {
+}
